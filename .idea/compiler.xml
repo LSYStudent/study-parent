@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-redis-cache" />
+        <module name="spring-boot-image-video-provide" />
+        <module name="spring-cloud-eureka-server-one" />
+        <module name="spring-boot-other-commons" />
+        <module name="spring-boot-security-login" />
+        <module name="spring-boot-repo-model" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-boot-image-video-provide" target="8" />
+      <module name="spring-boot-other-commons" target="8" />
+      <module name="spring-boot-redis-cache" target="8" />
+      <module name="spring-boot-repo-model" target="8" />
+      <module name="spring-boot-security-login" target="8" />
+      <module name="spring-cloud-eureka-7001" target="1.8" />
+      <module name="spring-cloud-eureka-server-one" target="8" />
+      <module name="study-parent" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-boot-image-video-provide" options="-parameters" />
+      <module name="spring-boot-other-commons" options="-parameters" />
+      <module name="spring-boot-redis-cache" options="-parameters" />
+      <module name="spring-boot-repo-model" options="-parameters" />
+      <module name="spring-boot-security-login" options="-parameters" />
+      <module name="spring-cloud-eureka-7001" options="-parameters" />
+      <module name="spring-cloud-eureka-server-one" options="-parameters" />
+      <module name="study-parent" options="" />
+    </option>
+  </component>
+</project>

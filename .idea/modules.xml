@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-image-video-provide/spring-boot-image-video-provide.iml" filepath="$PROJECT_DIR$/spring-boot-image-video-provide/spring-boot-image-video-provide.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-other-commons/spring-boot-other-commons.iml" filepath="$PROJECT_DIR$/spring-boot-other-commons/spring-boot-other-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-redis-cache/spring-boot-redis-cache.iml" filepath="$PROJECT_DIR$/spring-boot-redis-cache/spring-boot-redis-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-repo-model/spring-boot-repo-model.iml" filepath="$PROJECT_DIR$/spring-boot-repo-model/spring-boot-repo-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-security-login/spring-boot-security-login.iml" filepath="$PROJECT_DIR$/spring-boot-security-login/spring-boot-security-login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-server-one/spring-cloud-eureka-server-one.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-server-one/spring-cloud-eureka-server-one.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-parent.iml" filepath="$PROJECT_DIR$/study-parent.iml" />
+    </modules>
+  </component>
+</project>
