@@ -26,7 +26,7 @@ import java.io.Serializable;
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
 @TableName("user")
-@ApiModel(value = "User对象", description = "")
+@ApiModel(value = "User对象", description = "用户表")
 public class User extends Model<User> {
 
 

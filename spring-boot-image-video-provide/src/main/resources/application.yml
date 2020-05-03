@@ -1,9 +1,15 @@
 server:
   port: 8010
 
+
 spring:
   application:
     name: image-video-process
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://112.124.15.176:3306/study_db?useUnicode=true&characterEncoding=utf8&serverTimezone=Hongkong&useSSL=false
+    username: root
+    password: 123456
 
 eureka:
   client:

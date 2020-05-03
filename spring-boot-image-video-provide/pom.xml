@@ -39,6 +39,11 @@
             <artifactId>thumbnailator</artifactId>
             <version>0.4.8</version>
         </dependency>
+        <dependency>
+            <groupId>com.lsy.demo</groupId>
+            <artifactId>spring-boot-repo-model</artifactId>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
 
 </project>

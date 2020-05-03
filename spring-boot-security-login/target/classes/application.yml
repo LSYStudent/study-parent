@@ -8,10 +8,16 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
-    password: 123
-    url: jdbc:mysql://localhost:3306/study_db?useUnicode=true&characterEncoding=utf8&serverTimezone=Hongkong&useSSL=false
+    password: 123456
+    url: jdbc:mysql://112.124.15.176:3306/study_db?useUnicode=true&characterEncoding=utf8&serverTimezone=Hongkong&useSSL=false
   application:
     name: login-in-system
+  redis:
+    database: 0
+    host: 112.124.15.176
+    port: 6379
+    timeout: 10000
+
 
 eureka:
   client:

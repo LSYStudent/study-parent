@@ -5,16 +5,16 @@ global:
   output-dic: /spring-boot-repo-model/src/main/java
   #覆盖已有文件
   file-override: true
-  #是否启用Swag]=\iuger注解
+  #是否启用Swaggiuger注解
   swagger: true
   #作者
   author: lsy
 
 #Mysql数据源配置
 datasource:
-  url: jdbc:mysql://localhost:3306/study_db?useUnicode=true&characterEncoding=utf8&serverTimezone=Hongkong&useSSL=false
+  url: jdbc:mysql://112.124.15.176:3306/study_db?useUnicode=true&characterEncoding=utf8&serverTimezone=Hongkong&useSSL=false
   username: root
-  password: 123
+  password: 123456
 
 #包配置
 package:

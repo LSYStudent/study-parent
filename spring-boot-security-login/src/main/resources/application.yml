@@ -3,16 +3,28 @@ server:
   servlet:
     context-path: /login
 
-
+#数据库及redis配置
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
-    password: 123
-    url: jdbc:mysql://localhost:3306/study_db?useUnicode=true&characterEncoding=utf8&serverTimezone=Hongkong&useSSL=false
+    password: 123456
+    url: jdbc:mysql://112.124.15.176:3306/study_db?useUnicode=true&characterEncoding=utf8&serverTimezone=Hongkong&useSSL=false
   application:
     name: login-in-system
+  redis:
+    database: 0
+    host: 112.124.15.176
+    port: 6379
+    timeout: 10000
+    #邮箱配置
+  mail:
+    default-encoding: UTF-8
+    host: smtp.163.com
+    user-name: lsy_starry@163.com
+    password: ERTGYWQAONVNFMYO
 
+#eureka配置
 eureka:
   client:
     service-url:
@@ -22,7 +34,7 @@ eureka:
     prefer-ip-address: true
 
 
-
+#mybatis-plus配置
 mybatis-plus:
   mapper-locations: classpath:mapper/*.xml
   type-aliases-package: com.lsy.demo.repo.model
@@ -31,3 +43,5 @@ mybatis-plus:
       logic-not-delete-value: 1
       logic-delete-value: 0
   config-location: classpath:mybatis-config.xml
+
+#邮箱配置
