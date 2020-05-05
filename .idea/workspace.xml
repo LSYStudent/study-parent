@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a1f4bbe-5b3d-43f2-9859-eba71cba670c" name="Default Changelist" comment="登陆及注册工具类编写" />
+    <list default="true" id="0a1f4bbe-5b3d-43f2-9859-eba71cba670c" name="Default Changelist" comment="调整架构">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-security-login/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-security-login/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -197,7 +200,9 @@
       <workItem from="1588431605673" duration="976000" />
       <workItem from="1588432650631" duration="1859000" />
       <workItem from="1588501250976" duration="5810000" />
-      <workItem from="1588514117843" duration="18078000" />
+      <workItem from="1588514117843" duration="18298000" />
+      <workItem from="1588570766894" duration="4507000" />
+      <workItem from="1588667311320" duration="2660000" />
     </task>
     <task id="LOCAL-00001" summary="登陆及注册工具类编写">
       <created>1588534808606</created>
@@ -206,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588534808606</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="调整架构">
+      <created>1588534975662</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588534975662</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,7 +239,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="登陆及注册工具类编写" />
-    <option name="LAST_COMMIT_MESSAGE" value="登陆及注册工具类编写" />
+    <MESSAGE value="调整架构" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整架构" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="218" key="#Project_Structure" timestamp="1588244921846">
@@ -248,25 +261,25 @@
     </state>
     <state x="526" y="233" key="FileChooserDialogImpl/0.40.1366.728@0.40.1366.728" timestamp="1588530300028" />
     <state x="740" y="315" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1588060055111" />
-    <state width="1323" height="307" key="GridCell.Tab.0.bottom" timestamp="1588526306822">
+    <state width="1323" height="307" key="GridCell.Tab.0.bottom" timestamp="1588535051348">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="307" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1588526306822" />
+    <state width="1323" height="307" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1588535051348" />
     <state width="1877" height="402" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1588245521511" />
-    <state width="1323" height="307" key="GridCell.Tab.0.center" timestamp="1588526306822">
+    <state width="1323" height="307" key="GridCell.Tab.0.center" timestamp="1588535051348">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="307" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1588526306822" />
+    <state width="1323" height="307" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1588535051348" />
     <state width="1877" height="402" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1588245521511" />
-    <state width="1323" height="307" key="GridCell.Tab.0.left" timestamp="1588526306822">
+    <state width="1323" height="307" key="GridCell.Tab.0.left" timestamp="1588535051347">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="307" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1588526306822" />
+    <state width="1323" height="307" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1588535051347" />
     <state width="1877" height="402" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1588245521511" />
-    <state width="1323" height="307" key="GridCell.Tab.0.right" timestamp="1588526306822">
+    <state width="1323" height="307" key="GridCell.Tab.0.right" timestamp="1588535051348">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="307" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1588526306822" />
+    <state width="1323" height="307" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1588535051348" />
     <state width="1877" height="402" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1588245521511" />
     <state width="1323" height="307" key="GridCell.Tab.1.bottom" timestamp="1588511752840">
       <screen x="0" y="40" width="1366" height="728" />
@@ -313,14 +326,14 @@
     </state>
     <state x="166" y="55" key="SettingsEditor/0.40.1366.728@0.40.1366.728" timestamp="1588432590505" />
     <state x="461" y="202" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1588167925810" />
-    <state x="275" y="136" key="Vcs.Push.Dialog.v2" timestamp="1588534819654">
+    <state x="275" y="136" key="Vcs.Push.Dialog.v2" timestamp="1588534984471">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="275" y="136" key="Vcs.Push.Dialog.v2/0.40.1366.728@0.40.1366.728" timestamp="1588534819654" />
-    <state x="52" y="59" key="new project wizard" timestamp="1588520002064">
+    <state x="275" y="136" key="Vcs.Push.Dialog.v2/0.40.1366.728@0.40.1366.728" timestamp="1588534984471" />
+    <state x="52" y="59" key="new project wizard" timestamp="1588667787383">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="52" y="59" key="new project wizard/0.40.1366.728@0.40.1366.728" timestamp="1588520002064" />
+    <state x="52" y="59" key="new project wizard/0.40.1366.728@0.40.1366.728" timestamp="1588667787383" />
     <state x="334" y="261" key="new project wizard/0.40.1920.1040@0.40.1920.1040" timestamp="1588238586529" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1588529078312">
       <screen x="0" y="40" width="1366" height="728" />

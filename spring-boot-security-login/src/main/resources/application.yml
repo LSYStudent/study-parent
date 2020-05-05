@@ -43,5 +43,3 @@ mybatis-plus:
       logic-not-delete-value: 1
       logic-delete-value: 0
   config-location: classpath:mybatis-config.xml
-
-#邮箱配置
