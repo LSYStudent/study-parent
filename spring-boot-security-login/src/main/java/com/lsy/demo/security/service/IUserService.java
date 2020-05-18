@@ -5,6 +5,7 @@ import com.lsy.demo.commons.param.BaseParam;
 import com.lsy.demo.repo.component.Pager;
 import com.lsy.demo.repo.model.User;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.lsy.demo.security.domain.UserDTO;
 
 /**
  *  服务类
@@ -19,4 +20,11 @@ public interface IUserService extends IService<User> {
         * @return IPage
         */
         IPage<User> pageUser(Pager<BaseParam<User>> pager);
+
+        /**
+         * 发送邮件
+         * @param dto
+         * @return
+         */
+        String sendMail(UserDTO dto);
 }

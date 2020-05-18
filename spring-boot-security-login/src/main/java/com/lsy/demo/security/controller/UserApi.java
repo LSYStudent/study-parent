@@ -2,15 +2,17 @@ package com.lsy.demo.security.controller;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.lsy.demo.commons.component.R;
-import com.lsy.demo.commons.config.Constants;
-import com.lsy.demo.commons.exception.StudyBaseException;
 import com.lsy.demo.commons.param.BaseParam;
 import com.lsy.demo.repo.component.Pager;
 import com.lsy.demo.repo.model.User;
+import com.lsy.demo.security.domain.UserDTO;
 import com.lsy.demo.security.service.IUserService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
 import io.swagger.annotations.ApiOperation;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
@@ -35,6 +37,17 @@ public class UserApi {
      public R<IPage<User>> pageUser(@RequestBody Pager<BaseParam<User>> pager){
          return R.ok(targetService.pageUser(pager));
      }
+
+    /**
+     * 发送邮箱验证码
+     * @param dto
+     * @return
+     */
+    @ApiOperation(value = "发送邮箱验证码",notes = "发送邮箱验证码", response = User.class)
+    @PostMapping(value = "/send/code")
+    public R<String> sendMail(@RequestBody UserDTO dto){
+        return R.ok(targetService.sendMail(dto));
+    }
 
     /**
     * 查询全部数据

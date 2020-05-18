@@ -20,4 +20,10 @@ public class UserDTO extends User {
 
     @ApiModelProperty(value = "用户角色")
     private String role;
+
+    @ApiModelProperty(value = "验证码")
+    private String code;
+
+    @ApiModelProperty(value = "新密码")
+    private String newPwd;
 }

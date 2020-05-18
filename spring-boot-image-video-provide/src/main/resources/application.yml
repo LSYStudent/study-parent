@@ -4,7 +4,7 @@ server:
 
 spring:
   application:
-    name: image-video-process
+    name: image-video-process   #对外暴露得服务名称
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://112.124.15.176:3306/study_db?useUnicode=true&characterEncoding=utf8&serverTimezone=Hongkong&useSSL=false

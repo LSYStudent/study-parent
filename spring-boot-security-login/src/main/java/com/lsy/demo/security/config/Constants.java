@@ -46,13 +46,22 @@ public interface Constants {
      */
     String USER_ID = "u_id";
 
+    /**
+     * 验证码个数
+     */
+    Integer CODE_NUM = 5;
 
+
+    /**
+     * 业务状态码
+     */
     @Getter
     @AllArgsConstructor
     enum LoginStatus {
-
-        TOKEN_ERROR(4010, "token错误！"),
-        EMAIL_USER_ERROR(4015, "邮箱发送失败！");
+        //token错误
+        TOKEN_ERROR(7001, "token错误！"),
+        EMAIL_USER_ERROR(7002, "邮箱发送失败！"),
+        EMAIL_REGISTERED(7003, "该邮箱已注册，请直接登录！");
 
         int code;
 

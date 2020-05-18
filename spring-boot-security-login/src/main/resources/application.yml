@@ -19,10 +19,25 @@ spring:
     timeout: 10000
     #邮箱配置
   mail:
-    default-encoding: UTF-8
     host: smtp.163.com
-    user-name: lsy_starry@163.com
-    password: ERTGYWQAONVNFMYO
+    username: lsy_starry@163.com
+    password: IKBVFYKHMLFKPNQM
+    protocol: smtp
+    port: 465
+    test-connection: false
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+          ssl:
+            enable: true
+            socketFactory:
+              fallback: false
+              class: com.fintech.modules.base.util.mail.MailSSLSocketFactory
+    default-encoding: UTF-8
 
 #eureka配置
 eureka:
